@@ -10,6 +10,9 @@ Virtual faishon try on is a challenging research area with one of the aim to mak
 
 ## Proposed Architecture
 
+<p align="center">
+  <img src="/images/deepfaishonswap.png"></p>
+
 
 ## Related works
 
