@@ -14,7 +14,7 @@ In the proposed arcitecture, two Encoders and one decoder is used for the Genera
 <p align="center">
   <img src="/images/deepfashionswap.png"></p>
 
-    Other Ideas to for Generator are  - 
+    Other Ideas/Networks to use as a Generator are  - 
     1. Use of StyleGAN2 architecture, where corresponding keypoints and segmented masked part will be sent as input and Feature of Reference cloth will be given  as a Style vector. 
     2. UNet architeccture can be used as a Generator Network.  
 
