@@ -26,8 +26,7 @@ In the proposed arcitecture, two Encoders and one decoder is used for the Genera
   
 2.  Use instance segmentation models for human body parsing like [Self-Correction for Human Parsing(SCHP)](https://arxiv.org/abs/1910.09777) and [Part Grouping Network](https://arxiv.org/abs/1808.00157). Once we have the segmented image, use edge detection technique to identify the edges. Find contours correspoding to cloth part from the edge output. 
 
- <p align="center">
-  <img src="/images/clothcontour.png"></p>
+<p align="center"><img src="/images/Clothcontour.png"></p>
 
 ## Related works
 
