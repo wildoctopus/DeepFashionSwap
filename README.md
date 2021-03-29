@@ -22,19 +22,28 @@ In the proposed arcitecture, two Encoders and one decoder is used for the Genera
 
 1. Openpose pretrained network can be used to generate COCO keypoints for the cloth part. Like shown in below image. 
     <p align="center">
-  <img src="/images/OpenPoseKeyPoints.png"></p>
+  <img src="/images/OpenPoseKeyPoints.png" width="70%" height="70%"></p>
   
 2.  Use instance segmentation models for human body parsing like [Self-Correction for Human Parsing(SCHP)](https://arxiv.org/abs/1910.09777) and [Part Grouping Network](https://arxiv.org/abs/1808.00157). Once we have the segmented image, use edge detection technique to identify the edges. Find contours correspoding to cloth part from the edge output. 
 
-<p align="center"><img src="/images/Clothcontour.png"></p>
+<p align="center"><img src="/images/Clothcontour.png" width="70%" height="70%"></p>
 
 ## Related works
+
+Some of the best related research work done in this area with there publication is mentioned below. Do checkout these great research for more insights into Virtual faishon TryON. 
+1. [GarmentGAN: Photo-realistic Adversarial Fashion Transfer](https://arxiv.org/pdf/2003.01894.pdf)
+2. [ACGPN: Towards Photo-Realistic Virtual Try-On by Adaptively Generating↔Preserving Image Content](https://arxiv.org/abs/2003.05863)
+3. [Styleposegan: Style and Pose Control for Image Synthesis of Humans from a Single Monocular View](http://gvv.mpi-inf.mpg.de/projects/Styleposegan/)
+4. [VOGUE: Try-On by StyleGAN Interpolation Optimization](https://arxiv.org/abs/2101.02285)
+5. [VITON: An Image-based Virtual Try-on Network](https://arxiv.org/abs/1711.08447)
 
 
 ## Limitations
 
 
 <p align="center">
-  <img src="/images/artifacts.png"></p>
+  <img src="/images/artifacts.png" width="60%" height="60%"></p>
 
 ## References
+
+1. [Deep Learning for Virtual Try On Clothes – Challenges and Opportunities](https://www.kdnuggets.com/2020/10/deep-learning-virtual-try-clothes.html)
