@@ -21,8 +21,7 @@ In the proposed arcitecture, two Encoders and one decoder is used for the Genera
 ### Some Methods to generate pose keypoints
 
 1. Openpose pretrained network can be used to generate COCO keypoints for the cloth part. Like shown in below image. 
-    <p align="center">
-  <img src="/images/OpenPoseKeyPoints.png" width="70%" height="70%"></p>
+<p align="center"><img src="/images/OpenPoseKeyPoints.png" width="70%" height="70%"></p>
   
 2.  Use instance segmentation models for human body parsing like [Self-Correction for Human Parsing(SCHP)](https://arxiv.org/abs/1910.09777) and [Part Grouping Network](https://arxiv.org/abs/1808.00157). Once we have the segmented image, use edge detection technique to identify the edges. Find contours correspoding to cloth part from the edge output. 
 
